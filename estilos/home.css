@@ -132,17 +132,26 @@ header {
 
 .box-images {
     width: 100%;
+    
     display: flex;
-    flex-wrap: wrap;
+    
     margin-top: 70px;
 }
 
 .column-stardand {
-    /* width: 100%; */
+    
+
     flex: 1;
+   
     padding-right: 8px; 
     
 }
+
+.column-stardand img {
+    width: 100%;
+    flex: 1;
+}
+
 .column-1, .column-2, .column-3 {
     margin-right: 8px;
 
@@ -164,9 +173,6 @@ footer {
 
     font-family: 'Montserrat', sans-serif;
 
-
-   
-     
     
 }
 
@@ -262,21 +268,19 @@ footer {
 
 
         background: #7FDBD4;
-
+        
         
     }
 
     .social-networks img {
-        
-        margin: 10px 32px;
+        width: 90px;
+        height: 100%;
     }
 
     .copyright {
         text-align: center;
 
-        margin: 0;
-
-        
+        margin: 0; 
     }
 }
 
@@ -351,6 +355,29 @@ footer {
         background-size: cover;
             
         margin-top: 45px;
+    }
+
+    .box-images {
+        display: flex;
+        flex-wrap: wrap;
+
+        
+        
+        
+    }
+
+    .box-images .column-stardand {
+        flex: 100%;
+        padding: 0;
+    }
+
+    .box-images .column-stardand img {
+        width: 100%;
+        margin: 8px 0px;
+    }
+
+    footer {
+        margin-top: 25px;
     }
 }
 
